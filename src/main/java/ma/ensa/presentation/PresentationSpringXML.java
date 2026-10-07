@@ -11,7 +11,8 @@ public class PresentationSpringXML {
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        IMetier metier = context.getBean("metier", IMetier.class);
+        IMetier metier =
+                context.getBean("metier", IMetier.class);
 
         System.out.println("Résultat = " + metier.calcul());
     }
