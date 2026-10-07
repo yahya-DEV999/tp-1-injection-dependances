@@ -16,5 +16,4 @@ public class PresentationSpringAnnotations {
         IMetier metier = context.getBean("metier", IMetier.class);
 
         System.out.println("Résultat = " + metier.calcul());
-    }
-}
+    }}
